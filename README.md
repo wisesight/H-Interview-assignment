@@ -1,9 +1,10 @@
 # H-Interview-assignment
+
+
 Pass the test
 
+## Command
 
 ```
-FLASK_APP=src/server flask run
-export PYTHONPATH=.
-pytest
+npm run test
 ```

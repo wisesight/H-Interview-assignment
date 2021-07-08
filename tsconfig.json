@@ -1,0 +1,20 @@
+{
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "moduleResolution": "node",
+        "outDir": "dist",
+        "allowJs": true,
+        "target": "ES2018",
+        "baseUrl": "./src-ts",
+        "esModuleInterop": true,
+        "module": "CommonJS",
+        "strictNullChecks": true
+    },
+    "include": [
+        "./src/**/*",
+    ]
+}
