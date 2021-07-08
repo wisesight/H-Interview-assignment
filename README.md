@@ -10,7 +10,7 @@
 
 ## Stack requirement
 ```
-node 14
+node 14.17
 typescript 4.3
 express 4.17
 jest 27
