@@ -52,7 +52,7 @@ export class Database {
                     break;
                 }
             }
-            if(!found) {
+            if(found) {
                 result.push(row);
             }
         }
