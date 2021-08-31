@@ -45,14 +45,14 @@ export class Database {
     public static find(option: Record<string, any>) {
         let result: Record<string,any>[] = [];
         for (const row of data) {
-            let misMatch = false;
+            let found = false;
             for (const [key, value] of Object.entries(option)) {
                 if (row[key] !== value) {
-                    misMatch = true;
+                    found = true;
                     break;
                 }
             }
-            if(!misMatch) {
+            if(!found) {
                 result.push(row);
             }
         }
